@@ -7,7 +7,7 @@ import bg from "@/components/ui/bg.webp";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 bg-stone-50">
+    <section className="py-20 bg-stone-50">
       <motion.div
         initial={{ opacity: 0, y: 30 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
 
           {/* Right: Form */}
-          <div className="bg-white p-6 lg:p-8 flex flex-col justify-center">
+          <div className="bg-white p-6 lg:p-8 flex flex-col justify-center" id="contact">
             <div>
               <h3 className="font-serif text-3xl text-stone-900 mb-3">Let&apos;s Connect</h3>
               <p className="text-stone-500 mb-10 font-light">
