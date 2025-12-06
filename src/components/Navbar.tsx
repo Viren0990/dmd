@@ -22,7 +22,7 @@ export default function Navbar() {
             />
           </div>
           <div className="font-serif font-bold text-amber-700 md:text-lg tracking-tight">
-           DMD GOLD
+           DMD GOLD <span className="hidden md:flex">SOFTWARE</span>
           </div>
         </div>
 
