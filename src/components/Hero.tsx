@@ -40,7 +40,7 @@ export default function Hero() {
             {/* Description */}
             <p className="text-lg md:text-xl text-stone-600 leading-relaxed mb-10 max-w-lg">
               Streamline inventory management, billing, and operations with 
-              India&apos;s most trusted jewelry software solution.
+              India&apos;s most trusted jewelry software solutions.
             </p>
 
             {/* CTAs */}
