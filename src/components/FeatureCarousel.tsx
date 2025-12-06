@@ -190,7 +190,7 @@ export default function FeaturesCarousel() {
                   <button
                     key={idx}
                     onClick={() => setCurrentIndex(idx)}
-                    className={`h-2 rounded-full transition-all ${
+                    className={`h-2 rounded-full transition-all cursor-pointer ${
                       idx === currentIndex
                         ? "w-8 bg-amber-600"
                         : "w-2 bg-stone-300 hover:bg-stone-400"
@@ -202,7 +202,7 @@ export default function FeaturesCarousel() {
 
               <button
                 onClick={nextSlide}
-                className="w-12 h-12 rounded-full bg-white border border-stone-200 flex items-center justify-center hover:bg-stone-50 hover:border-stone-300 hover:shadow-lg transition-all"
+                className="w-12 h-12 rounded-full bg-white border border-stone-200 flex items-center justify-center hover:bg-stone-50 hover:border-stone-300 hover:shadow-lg transition-all cursor-pointer"
                 aria-label="Next feature"
               >
                 <ChevronRight className="w-5 h-5 text-stone-700" />
