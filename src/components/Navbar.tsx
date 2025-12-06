@@ -21,8 +21,8 @@ export default function Navbar() {
               className="object-contain"
             />
           </div>
-          <div className="font-serif font-bold text-amber-700 md:text-lg tracking-tight">
-           DMD GOLD <span className="hidden md:flex">SOFTWARE</span>
+          <div className="font-serif font-bold text-amber-700 md:text-lg tracking-tight flex gap-1">
+           DMD GOLD <span className="hidden md:block"> SOFTWARE</span>
           </div>
         </div>
 
