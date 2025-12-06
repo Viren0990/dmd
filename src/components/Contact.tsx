@@ -29,7 +29,7 @@ export default function Contact() {
         </div>
 
         {/* Split Layout */}
-        <div className="grid lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-2xl">
+        <div className="grid lg:grid-cols-2 gap-0 rounded-3xl overflow-hidden shadow-2xl" id="contact">
           {/* Left: Image */}
           <div className="relative min-h-[500px] lg:min-h-[500px]">
             <Image src={bg} alt="Luxury gold jewelry" fill className="object-cover" />
@@ -37,7 +37,7 @@ export default function Contact() {
           </div>
 
           {/* Right: Form */}
-          <div className="bg-white p-6 lg:p-8 flex flex-col justify-center" id="contact">
+          <div className="bg-white p-6 lg:p-8 flex flex-col justify-center">
             <div>
               <h3 className="font-serif text-3xl text-stone-900 mb-3">Let&apos;s Connect</h3>
               <p className="text-stone-500 mb-10 font-light">
