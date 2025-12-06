@@ -178,7 +178,7 @@ export default function FeaturesCarousel() {
             <div className="flex items-center justify-between max-w-7xl mx-auto">
               <button
                 onClick={prevSlide}
-                className="w-12 h-12 rounded-full bg-white border border-stone-200 flex items-center justify-center hover:bg-stone-50 hover:border-stone-300 hover:shadow-lg transition-all"
+                className="w-12 h-12 rounded-full bg-white border border-stone-200 flex items-center justify-center hover:bg-stone-50 hover:border-stone-300 hover:shadow-lg transition-all cursor-pointer"
                 aria-label="Previous feature"
               >
                 <ChevronLeft className="w-5 h-5 text-stone-700" />
