@@ -1,4 +1,3 @@
-import Call from "@/components/Call";
 import Contact from "@/components/Contact";
 import FeaturesCarousel from "@/components/FeatureCarousel";
 import Features from "@/components/Features";
@@ -14,7 +13,6 @@ export default function Home() {
       <Contact />
       <Features />
       <FeaturesCarousel />
-      <Call />
       <Footer />
     </div>
   );
